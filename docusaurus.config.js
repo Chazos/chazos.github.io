@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Chazos',
+        title: 'Chazos La',
         logo: {
           alt: 'Chazos Logo',
           src: 'img/logo.svg',
