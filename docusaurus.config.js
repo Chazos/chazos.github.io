@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Chazos',
-  tagline: 'Another Laravel Headless CMS',
+  tagline: 'Yet another Headless CMS built in Laravel, Tailwind CSS & Alpine JS',
   url: 'https://chazos.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config = {
         title: 'Chazos',
         logo: {
           alt: 'Chazos Logo',
-          src: 'img/logo.svg',
+          src: 'img/laravel.svg',
         },
         items: [
           {
@@ -56,7 +56,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -80,23 +80,23 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/chazos',
+                label: 'Github',
+                href: 'https://github.com/Chazos/chazos',
               },
       
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/chazos',
+                href: 'https://twitter.com/takucoder',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/chazos',
@@ -104,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chazos, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chazos, Inc. Built with Docusaurus. Special thanks to storyset for their images`,
       },
       prism: {
         theme: lightCodeTheme,
