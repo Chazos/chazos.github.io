@@ -8,7 +8,7 @@ Chazos is a headless framework built on Laravel, TailwindCSS and Alpine JS. It a
 
 ## What does it contains
 
-The framework contains things such as table builder, data viewer, plugin manager, auth, permissions and last but least settings
+The framework contains things such as table builder, data viewer, plugin manager, auth, permissions and last but least settings.
 
 ### 1. Table Builder
 Its a simple builder that allows to create tables, add/remove/edit columns, edit the tables and remove them, if you dont like them.
