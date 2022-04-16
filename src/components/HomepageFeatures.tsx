@@ -11,26 +11,26 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    image: '/img/nerd.svg',
     description: (
       <>
         Chazos was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        used to get your backend up and running quickly.
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    image: '/img/undraw_docusaurus_tree.svg',
+    image: '/img/bro.svg',
     description: (
       <>
-        Chazos lets you focus on your content, and does all the chores. 
+        Chazos lets you focus on whats important, and it does all the chores. 
       </>
     ),
   },
   {
     title: 'Powered by Laravel',
-    image: '/img/undraw_docusaurus_react.svg',
+    image: '/img/laravel.svg',
     description: (
       <>
         People say PHP is dead, but jokes on you 🤣. Chazos is powered by Laravel,

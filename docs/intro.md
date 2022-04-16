@@ -2,34 +2,37 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Chazos is a headless framework built on Laravel, TailwindCSS and Alpine JS. It allows you to create tables, set permissions and consume data using a rest API in no time.
 
-## Getting Started
+## What does it contains
 
-Get started by **creating a new site**.
+The framework contains things such as table builder, data viewer, plugin manager, auth, permissions and last but least settings
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 1. Table Builder
+Its a simple builder that allows to create tables, add/remove/edit columns, edit the tables and remove them, if you dont like them.
 
-## Generate a new site
+It is from this sections that you can set permissions to prevent prying eyes from viewing your lovely data. 
 
-Generate a new Docusaurus site using the **classic template**:
+**You dont need to write API calls because thats already done for you**
+### 2. Data Viewer
+As the same says this section allows you to view data in all your tables. You can also export and import data. This means in the event that you no longer like this framework, the door is open. No pay me this much to get out🙅‍♂️
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+### 3. Plugin Manager
+Plugins allow you to extend the functionality of a framework without touching its core code. The plugin manager allows you to install and unistall plugins. 
 
-## Start your site
+For more info on how to write plugins please go to the plugins sections.
+### 4. Payment System
+You can recieve payments using Chazos.
 
-Run the development server:
+Supported gateways:
+1. Paynow
 
-```shell
-cd my-website
+For more info on how to accept payments please go to the payments sections.
+### 6. Other things
+Comes with auth and permission functionlity out of the box.
 
-npx docusaurus start
-```
 
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+## Why I did I built it
+I am lazy
