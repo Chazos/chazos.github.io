@@ -8,10 +8,11 @@ In meantime installation is directly but very soon I am dockerizing it 🤞
 ## Requirements
 Before installing this framework make sure you have these following requirements
 
-1. PHP  (7.4 or greater)
-2. Composer
-3. Python (3)
-4. Brains 😄
+1. PHP  (7.4 or greater) 📜
+2. Composer 🎼
+3. GitHub 🐙
+
+**Note: These tools must be accessible in your path**
 
 ## 1. Direct Installation
 0. Create your database first and name it whatever you like
@@ -29,7 +30,7 @@ Before installing this framework make sure you have these following requirements
 
 4.  Run install
 
-    `python woof.py install`
+    `php artisan chazos:install`
 
 5. Serve it
 
